@@ -32,4 +32,8 @@
 
     <!-- Whether SELinux status should be shown or not. -->
     <bool name="config_show_selinux_status">true</bool>
+
+    <!-- Battery health -->
+    <string name="config_batteryRemainingCapacityNode">/sys/class/power_supply/bms/charge_full</string>
+    <string name="config_batteryDesignCapacityNode">/sys/class/power_supply/bms/charge_full_design</string>
 </resources>
