@@ -197,6 +197,10 @@ PRODUCT_PACKAGES += \
 #    qcom.fmradio \
 #    qcom.fmradio.xml
 
+# FOD
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 # fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
